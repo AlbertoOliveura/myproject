@@ -15,6 +15,7 @@ class Topic(models.Model):
     # Add `auto_now_add=True` to the `last_updated` field
     last_updated = models.DateTimeField(auto_now_add=True)
 
+
 class Post(models.Model):
     # other fields...
     # Add `null=True` to the `updated_by` field
